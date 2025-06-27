@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de La Liga</title>
+    <link rel="stylesheet" href="less/principal.less" />
+  </head>
+  <body>
+    <header>
+      {{>header}}
+    </header>
+    <main>
+      <h2>Tabla del Torneo Clausura 2025</h2>
+      <section class="tablaDatos">
+        {{>liga datos=liga}}
+      </section>
+    </main>
+
+  </body>
+</html>
